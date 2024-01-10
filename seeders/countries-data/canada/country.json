@@ -1,0 +1,19 @@
+{
+  "id": "124",
+  "capital": "Ottawa",
+  "citizenship": "Canadian",
+  "country-code": "124",
+  "currency": "Canadian dollar",
+  "currency_code": "CAD",
+  "currency_sub_unit": "cent",
+  "full_name": "Canada",
+  "iso_3166_2": "CA",
+  "iso_3166_3": "CAN",
+  "name": "Canada",
+  "region-code": "019",
+  "sub-region-code": "021",
+  "eea": false,
+  "calling_code": "1",
+  "currency_symbol": "CAD$",
+  "flag": "CA.png"
+}

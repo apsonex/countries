@@ -1,0 +1,51 @@
+{
+  "name": "apsonex/countries",
+  "authors": [
+    {
+      "name": "Apsonex Inc.",
+      "email": "dev@apsonex.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "apsonex/spatial": "dev-master"
+  },
+  "require-dev": {
+    "laravel/framework": "^10.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Apsonex\\Countries\\": "src",
+      "Apsonex\\Countries\\Database\\Factories\\": "database/factories"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Apsonex\\Countries\\Tests\\": "tests",
+      "Apsonex\\Countries\\Seeders\\": "seeders"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Apsonex\\Countries\\CountriesServiceProvider"
+      ],
+      "aliases": {
+        "Geocoder": "Apsonex\\Countries\\Facades\\Geocoder"
+      }
+    }
+  },
+  "repositories": [
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
