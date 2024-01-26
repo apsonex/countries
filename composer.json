@@ -16,7 +16,8 @@
   "autoload": {
     "psr-4": {
       "Apsonex\\Countries\\": "src",
-      "Apsonex\\Countries\\Database\\Factories\\": "database/factories"
+      "Apsonex\\Countries\\Database\\Factories\\": "database/factories",
+      "Apsonex\\Countries\\Seeders\\": "seeders"
     },
     "files": [
       "src/helpers.php"
@@ -24,8 +25,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Apsonex\\Countries\\Tests\\": "tests",
-      "Apsonex\\Countries\\Seeders\\": "seeders"
+      "Apsonex\\Countries\\Tests\\": "tests"
     }
   },
   "config": {
@@ -40,7 +40,7 @@
         "Apsonex\\Countries\\CountriesServiceProvider"
       ],
       "aliases": {
-        "Geocoder": "Apsonex\\Countries\\Facades\\Geocoder"
+
       }
     }
   },
