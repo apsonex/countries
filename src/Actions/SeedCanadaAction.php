@@ -25,7 +25,6 @@ class SeedCanadaAction
         DB::table('countries')->insert([
             'capital'           => $country['capital'] ?? null,
             'citizenship'       => $country['citizenship'] ?? null,
-            'country_code'      => $country['country-code'] ?? null,
             'currency'          => $country['currency'] ?? null,
             'currency_code'     => $country['currency_code'] ?? null,
             'currency_sub_unit' => $country['currency_sub_unit'] ?? null,
@@ -33,9 +32,6 @@ class SeedCanadaAction
             'iso_3166_2'        => $country['iso_3166_2'] ?? null,
             'iso_3166_3'        => $country['iso_3166_3'] ?? null,
             'name'              => $country['name'] ?? null,
-            'region_code'       => $country['region-code'] ?? null,
-            'sub_region_code'   => $country['sub-region-code'] ?? null,
-            'eea'               => (bool)$country['eea'],
             'calling_code'      => $country['calling_code'] ?? null,
             'currency_symbol'   => $country['currency_symbol'] ?? null,
             'flag'              => $country['flag'] ?? null,
